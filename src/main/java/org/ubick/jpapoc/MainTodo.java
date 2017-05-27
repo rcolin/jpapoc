@@ -12,7 +12,7 @@ import javax.persistence.Query;
 /**
  * Created by Celine on 25/05/2017.
  */
-public class MainTest {
+public class MainTodo {
 
     private static final String PERSISTENCE_UNIT_NAME = "todos";
     private static EntityManagerFactory factory;
@@ -35,7 +35,9 @@ public class MainTest {
         todo.setDescription("This is a test");
         em.persist(todo);
         em.getTransaction().commit();
-
         em.close();
+
+
+
     }
 }
