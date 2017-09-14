@@ -1,0 +1,79 @@
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+TODO :
+
+cartographie de l'env
+    + JBoss service
+    + DB
+
+mise en à jour de l'env
+    + DS
+    + JEE application
+    + JSE
+    + scripts
+
+Portail de Perf :
+
+    core :
+        + check KPI model
+        + springboot
+
+    view :
+        + angular 2
+        + WS/REST
+
+    security
+        + spring security
+
+    gestion des dépendances :
+        + gradle
+        + maven 3.5
+
+    DataStrore :
+        + postgreSQL or sybase
+        + elasticsearch
+        + kibana
+        + automation : ansible sripts
+
+    Tests :
+        + couverture des tests
+        + Junit
+        + SonarLink
+
+    Build :
+        + jenkinsfile
+        + junit
+        + sonar
+
+    Deployment :
+        + automotion ansible
+
+    JRE :
+        + Java 8
+
+Sondes :
+    + Generic agent
+    + DB :
+        + créer la sonde
+        + insert data in or datastore : ES or Sybase or PGS
+        + automation : deployment and O/F
+        + KPI : CPU / RAM / NETWORK / IO / CONNEXION
+    + JBoss :
+        + créer la sonde
+        + insert data in or datastore : ES or Sybase or PGS
+        + automation : deployment and O/F
+        + KPI : CPU / RAM (HEAP)
+    + GRID :
+        + créer la sonde
+        + insert data in or datastore : ES or Sybase or PGS
+        + KPI : CPU / RAM / DISK
+    + Server de Batch
+        + KPI : CPU / RAM / NETWORK / IO
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DOING :
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DONE :
+
+
